@@ -38,10 +38,15 @@ Check if `config.json` exists in the project root.
 
 ## Step 2: Download Data and Project Files
 
-Run the following PowerShell command to download and extract the full project package (account data, scripts, commands, docs):
+Run the following command to download full project zip package (account data, scripts, commands, docs):
 
 ```
-pwsh -Command "$config = Get-Content 'config.json' | ConvertFrom-Json; $url = \"https://api.gaql.app/api/cli/google-ads/get-ai-data?loginCustomerId=$($config.loginCustomerId)&clientCustomerId=$($config.clientCustomerId)&gptToken=$([uri]::EscapeDataString($config.gptToken))&includePaused=false\"; Invoke-WebRequest -Uri $url -OutFile 'response.zip' -ErrorAction Stop; if (Test-Path 'data') { Remove-Item 'data' -Recurse -Force }; Expand-Archive -Path 'response.zip' -DestinationPath '.' -Force; Remove-Item 'response.zip'; Write-Host 'Download complete.'"
+curl -o response.zip "https://api.gaql.app/api/cli/google-ads/get-ai-data?loginCustomerId={loginCustomerId}&clientCustomerId={clientCustomerId}&gptToken={URL-encoded gptToken}&includePaused=false"
+```
+
+Then extract and clean up:
+```
+rm -rf data && unzip -o response.zip && rm response.zip
 ```
 
 If the command fails, show the error to the user and suggest checking `config.json`. Do NOT continue to subsequent steps.
