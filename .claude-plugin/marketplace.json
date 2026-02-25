@@ -8,7 +8,8 @@
   },
   "plugins": [
     {
-      "name": "Google Ads",
+      "name": "google-ads",
+      "displayName": "Google Ads",
       "source": "./plugins/google-ads",
       "description": "Google Ads account management for Google Ads",
       "version": "1.0.0",
