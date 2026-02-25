@@ -2,15 +2,15 @@
   "name": "trueclicks-plugins",
   "owner": { "name": "TrueClicks" },
   "metadata": {
-    "description": "TrueClicks Claude Code plugins for PPC account management",
+    "description": "TrueClicks Claude Code plugins for PPC",
     "version": "1.0.0",
     "pluginRoot": "./plugins"
   },
   "plugins": [
     {
-      "name": "google-ads",
+      "name": "Google Ads",
       "source": "./plugins/google-ads",
-      "description": "Google Ads account management via the GAQL API",
+      "description": "Google Ads account management for Google Ads",
       "version": "1.0.0",
       "author": { "name": "TrueClicks" },
       "category": "advertising",
