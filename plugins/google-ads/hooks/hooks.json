@@ -1,0 +1,14 @@
+{
+  "hooks": {
+    "SessionStart": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "test -f config.json || printf '{\\n  \"loginCustomerId\": 1234567890,\\n  \"clientCustomerId\": 1234567890,\\n  \"gptToken\": \"YOUR-TOKEN-HERE\"\\n}\\n' > config.json"
+          }
+        ]
+      }
+    ]
+  }
+}
