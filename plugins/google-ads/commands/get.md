@@ -21,10 +21,10 @@ Based on the user's answer, set `includePaused` to `false` (active only) or `tru
 
 Read `config.json` to get `loginCustomerId`, `clientCustomerId`, and `gptToken`.
 
-Run the following command (substituting the config values, URL-encoding the gptToken):
+Run the following command:
 
 ```
-curl -o response.zip "https://api.gaql.app/api/cli/google-ads/get-data?loginCustomerId={loginCustomerId}&clientCustomerId={clientCustomerId}&gptToken={URL-encoded gptToken}&includePaused={includePaused}"
+curl -s -o response.zip -X POST "https://api.gaql.app/api/cli/google-ads/get-data?includePaused={includePaused}" -F "config=@config.json"
 ```
 
 Then extract and clean up:

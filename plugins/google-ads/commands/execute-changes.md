@@ -25,12 +25,10 @@ Ask the user:
 2. **ASK FOR USER CONFIRMATION** (as described above).
    - If user does not confirm, abort immediately.
 
-3. If user confirms, read `config.json` to get `loginCustomerId`, `clientCustomerId`, and `gptToken`.
-
-4. POST the `pending_changes.json` file directly as the request body, with credentials in the URL:
+3. If user confirms, POST both files to the API:
 
 ```
-curl -s -X POST "https://api.gaql.app/api/cli/google-ads/execute-changes?loginCustomerId={loginCustomerId}&clientCustomerId={clientCustomerId}&gptToken={gptToken}" -H "Content-Type: application/json" -d @pending_changes.json
+curl -s -X POST "https://api.gaql.app/api/cli/google-ads/execute-changes" -F "config=@config.json" -F "pendingChanges=@pending_changes.json"
 ```
 
 5. If the API call succeeded, archive the results:

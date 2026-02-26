@@ -1,6 +1,6 @@
 # Google Ads Plugin for Claude Code
 
-Free Google Ads account management plugin by [TrueClicks](https://www.trueclicks.com). Fetch account data, analyze and audit accounts, validate and execute changes - all from Claude Code.
+Free Google Ads account management plugin. Fetch account data, analyze and audit accounts, validate and execute changes - all from Claude Code.
 
 ## Setup
 

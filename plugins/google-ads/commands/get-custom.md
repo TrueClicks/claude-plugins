@@ -14,12 +14,10 @@ Use this when the data in `data/account/` and `data/performance/` is insufficien
 
 1. Construct a valid GAQL query for the data needed.
 
-2. Read `config.json` to get `loginCustomerId`, `clientCustomerId`, and `gptToken`.
-
-3. Run the following command (substituting the config values and query parameters):
+2. Run the following command (substituting the query parameters):
 
 ```
-curl -o response.zip -X POST "https://api.gaql.app/api/cli/google-ads/get-custom-data" -H "Content-Type: application/json" -d '{"loginCustomerId":"{loginCustomerId}","clientCustomerId":"{clientCustomerId}","gptToken":"{gptToken}","name":"{query_name}","query":"{GAQL query}"}'
+curl -s -o response.zip -X POST "https://api.gaql.app/api/cli/google-ads/get-custom-data" -F "config=@config.json" -F "name={query_name}" -F "query={GAQL query}"
 ```
 
 **Parameters:**
