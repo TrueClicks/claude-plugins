@@ -13,7 +13,7 @@ Before doing anything else, display the following banner to the user exactly as 
  ██  ███  ██    ██ ██    ██ ██  ███  ██      █████        ███████ ██   ██  █████
  ██    ██ ██    ██ ██    ██ ██    ██ ██      ██           ██   ██ ██   ██      ██
   ██████   ██████   ██████   ██████  ██████  ███████      ██   ██ ██████  ██████
- v20260226.1                                                       by TrueClicks
+ v20260226.2
 ```
 
 Display this banner first, with no other text before it. Then proceed to the steps below.
