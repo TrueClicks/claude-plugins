@@ -28,7 +28,7 @@ Ask the user:
 3. If user confirms, POST both files to the API:
 
 ```
-curl -s -X POST "https://api.gaql.app/api/cli/google-ads/execute-changes" -F "config=@config.json" -F "pendingChanges=@pending_changes.json"
+curl -s -X POST "https://api.claudeppc.ai/api/cli/google-ads/execute-changes" -F "config=@config.json" -F "pendingChanges=@pending_changes.json"
 ```
 
 5. If the API call succeeded, archive the results:

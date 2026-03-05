@@ -13,7 +13,7 @@ Before doing anything else, display the following banner to the user exactly as 
  ██  ███  ██    ██ ██    ██ ██  ███  ██      █████        ███████ ██   ██  █████
  ██    ██ ██    ██ ██    ██ ██    ██ ██      ██           ██   ██ ██   ██      ██
   ██████   ██████   ██████   ██████  ██████  ███████      ██   ██ ██████  ██████
- v20260226.2
+ v20260305.1
 ```
 
 Display this banner first, with no other text before it. Then proceed to the steps below.
@@ -26,6 +26,7 @@ Check if `config.json` exists in the project root.
 
 ```json
 {
+  "platform": "google-ads",
   "loginCustomerId": 1234567890,
   "clientCustomerId": 1234567890,
   "gptToken": "YOUR-TOKEN-HERE"

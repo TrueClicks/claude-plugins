@@ -7,7 +7,7 @@ Validates the pending changes in `pending_changes.json` against the Google Ads A
 2. POST both files to the API:
 
 ```
-curl -s -X POST "https://api.gaql.app/api/cli/google-ads/validate-changes" -F "config=@config.json" -F "pendingChanges=@pending_changes.json"
+curl -s -X POST "https://api.claudeppc.ai/api/cli/google-ads/validate-changes" -F "config=@config.json" -F "pendingChanges=@pending_changes.json"
 ```
 
 4. After the API responds:

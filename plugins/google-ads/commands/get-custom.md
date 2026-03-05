@@ -17,7 +17,7 @@ Use this when the data in `data/account/` and `data/performance/` is insufficien
 2. Run the following command (substituting the query parameters):
 
 ```
-curl -s -o response.zip -X POST "https://api.gaql.app/api/cli/google-ads/get-custom-data" -F "config=@config.json" -F "name={query_name}" -F "query={GAQL query}"
+curl -s -o response.zip -X POST "https://api.claudeppc.ai/api/cli/google-ads/get-custom-data" -F "config=@config.json" -F "name={query_name}" -F "query={GAQL query}"
 ```
 
 **Parameters:**

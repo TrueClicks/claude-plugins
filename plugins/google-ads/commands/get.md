@@ -24,7 +24,7 @@ Read `config.json` to get `loginCustomerId`, `clientCustomerId`, and `gptToken`.
 Run the following command:
 
 ```
-curl -s -o response.zip -X POST "https://api.gaql.app/api/cli/google-ads/get-data?includePaused={includePaused}" -F "config=@config.json"
+curl -s -o response.zip -X POST "https://api.claudeppc.ai/api/cli/google-ads/get-data?includePaused={includePaused}" -F "config=@config.json"
 ```
 
 Then extract and clean up:
