@@ -1,6 +1,6 @@
 {
   "name": "google-ads",
-  "version": "1.4.0",
+  "version": "1.5.0",
   "description": "Free Google Ads account management -- fetch data, analyze and audit accounts, validate and execute changes",
   "author": { "name": "TrueClicks" },
   "homepage": "https://github.com/TrueClicks/claude-plugins/tree/main/plugins/google-ads",

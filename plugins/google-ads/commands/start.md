@@ -13,7 +13,7 @@ Before doing anything else, display the following banner to the user exactly as 
  ██  ███  ██    ██ ██    ██ ██  ███  ██      █████        ███████ ██   ██  █████
  ██    ██ ██    ██ ██    ██ ██    ██ ██      ██           ██   ██ ██   ██      ██
   ██████   ██████   ██████   ██████  ██████  ███████      ██   ██ ██████  ██████
- v20260305.1
+ v20260308.1
 ```
 
 Display this banner first, with no other text before it. Then proceed to the steps below.
