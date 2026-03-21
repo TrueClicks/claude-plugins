@@ -6,7 +6,7 @@ Claude Code plugins for PPC account management by [TrueClicks](https://www.truec
 
 | Plugin | Description | Version |
 |--------|-------------|---------|
-| [google-ads](./plugins/google-ads) | Google Ads account management by TrueClicks | 1.0.0 |
+| [google-ads](./plugins/google-ads) | Google Ads account management by TrueClicks | 1.5.0 |
 
 ## Installation
 
@@ -25,8 +25,8 @@ claude --plugin-dir ./claude-plugins/plugins/google-ads
 
 ## Prerequisites
 
-- [Claude Code](https://claude.ai/code) CLI
-- [PowerShell 7.0+](https://github.com/PowerShell/PowerShell/releases) (`pwsh` in PATH)
+- [Claude Code](https://claude.ai/code) CLI (subscription required)
+- A [claudeppc.ai](https://claudeppc.ai) GPT token — sign in with your Google account to connect your Google Ads account and download `config.json`
 
 ## License
 

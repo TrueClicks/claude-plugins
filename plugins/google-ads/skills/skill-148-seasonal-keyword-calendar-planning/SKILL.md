@@ -35,7 +35,7 @@ WHERE campaign.status = 'ENABLED'
 ORDER BY metrics.conversions DESC
 LIMIT 500
 ```
-Run via `/google-ads-get-custom` to identify high-converting seasonal queries from prior years.
+Run via `/google-ads:get-custom` to identify high-converting seasonal queries from prior years.
 
 ## Analysis Steps
 

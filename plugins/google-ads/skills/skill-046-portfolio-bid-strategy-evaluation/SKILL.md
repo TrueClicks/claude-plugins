@@ -35,7 +35,7 @@ FROM campaign
 WHERE campaign.status = 'ENABLED'
   AND segments.date DURING LAST_30_DAYS
 ```
-Use `/google-ads-get-custom` if you need portfolio-specific metrics.
+Use `/google-ads:get-custom` if you need portfolio-specific metrics.
 
 ## Analysis Steps
 

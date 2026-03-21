@@ -29,7 +29,7 @@ SELECT
 FROM keyword_view
 WHERE ad_group_criterion.status = 'ENABLED'
 ```
-Use `/google-ads-get-custom` if you need to include shared set data.
+Use `/google-ads:get-custom` if you need to include shared set data.
 
 ## Analysis Steps
 

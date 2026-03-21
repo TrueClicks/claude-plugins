@@ -32,7 +32,7 @@ WHERE ad_group_ad.status = 'ENABLED'
   AND segments.date DURING LAST_30_DAYS
 ORDER BY ad_group_ad_asset_view.performance_label DESC
 ```
-Run via `/google-ads-get-custom` with query name `asset_performance`.
+Run via `/google-ads:get-custom` with query name `asset_performance`.
 
 ## Analysis Steps
 

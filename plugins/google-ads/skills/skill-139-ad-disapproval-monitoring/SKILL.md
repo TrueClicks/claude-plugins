@@ -31,7 +31,7 @@ FROM ad_group_ad
 WHERE ad_group_ad.status != 'REMOVED'
   AND ad_group_ad.policy_summary.approval_status IN ('DISAPPROVED', 'APPROVED_LIMITED', 'AREA_OF_INTEREST_ONLY')
 ```
-Run via `/google-ads-get-custom` with query name `ad_policy_issues`.
+Run via `/google-ads:get-custom` with query name `ad_policy_issues`.
 
 ## Analysis Steps
 

@@ -25,7 +25,7 @@ SELECT
 FROM campaign
 WHERE campaign.status != 'REMOVED'
 ```
-Use `/google-ads-get-custom` if you need to include labels or additional metadata.
+Use `/google-ads:get-custom` if you need to include labels or additional metadata.
 
 ## Analysis Steps
 

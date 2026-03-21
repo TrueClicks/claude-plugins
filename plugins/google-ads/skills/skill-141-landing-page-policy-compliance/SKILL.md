@@ -28,7 +28,7 @@ SELECT
 FROM ad_group_ad
 WHERE ad_group_ad.status = 'ENABLED'
 ```
-Run via `/google-ads-get-custom` with query name `landing_page_urls`.
+Run via `/google-ads:get-custom` with query name `landing_page_urls`.
 
 ## Analysis Steps
 

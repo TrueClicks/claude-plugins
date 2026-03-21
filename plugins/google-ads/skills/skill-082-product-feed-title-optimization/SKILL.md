@@ -33,7 +33,7 @@ WHERE campaign.advertising_channel_type IN ('SHOPPING', 'PERFORMANCE_MAX')
 ORDER BY metrics.impressions DESC
 LIMIT 1000
 ```
-Run via `/google-ads-get-custom` with query name `product_titles`.
+Run via `/google-ads:get-custom` with query name `product_titles`.
 
 Note: Full product feed data requires Merchant Center access.
 

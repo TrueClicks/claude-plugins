@@ -29,7 +29,7 @@ SELECT
 FROM campaign
 WHERE campaign.status != 'REMOVED'
 ```
-Run via `/google-ads-get-custom` with query name `geo_targeting_methods`.
+Run via `/google-ads:get-custom` with query name `geo_targeting_methods`.
 
 ## Analysis Steps
 

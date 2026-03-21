@@ -30,7 +30,7 @@ SELECT
 FROM asset
 WHERE asset.type = 'PROMOTION'
 ```
-Use `/google-ads-get-custom` if you need asset-level performance data or extended date ranges.
+Use `/google-ads:get-custom` if you need asset-level performance data or extended date ranges.
 
 ## Analysis Steps
 

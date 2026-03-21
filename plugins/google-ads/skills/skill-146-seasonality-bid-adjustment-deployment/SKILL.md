@@ -28,7 +28,7 @@ FROM campaign
 WHERE campaign.status = 'ENABLED'
   AND segments.date BETWEEN '[PRIOR_YEAR_EVENT_START]' AND '[PRIOR_YEAR_EVENT_END]'
 ```
-Run via `/google-ads-get-custom` with appropriate date ranges for prior-year events.
+Run via `/google-ads:get-custom` with appropriate date ranges for prior-year events.
 
 **Additional Requirements:**
 - Business promotional calendar with upcoming events

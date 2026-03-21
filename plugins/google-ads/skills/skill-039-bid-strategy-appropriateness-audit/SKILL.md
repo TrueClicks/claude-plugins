@@ -34,7 +34,7 @@ FROM campaign
 WHERE segments.date DURING LAST_30_DAYS
   AND campaign.status != 'REMOVED'
 ```
-Use `/google-ads-get-custom` for detailed bidding strategy analysis.
+Use `/google-ads:get-custom` for detailed bidding strategy analysis.
 
 ## Analysis Steps
 

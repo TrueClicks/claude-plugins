@@ -22,7 +22,7 @@ SELECT
 FROM campaign
 WHERE segments.date BETWEEN '{start_date}' AND '{end_date}'
 ```
-Run via `/google-ads-get-custom` with query name `offline_conversion_lag`.
+Run via `/google-ads:get-custom` with query name `offline_conversion_lag`.
 
 **Standard Data:**
 - `data/account/conversion_actions.md` - Identify offline conversion sources

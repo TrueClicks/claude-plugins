@@ -36,7 +36,7 @@ FROM geographic_view
 WHERE segments.date DURING LAST_30_DAYS
   AND metrics.impressions > 0
 ```
-Run via `/google-ads-get-custom` with query name `geographic_performance`.
+Run via `/google-ads:get-custom` with query name `geographic_performance`.
 
 ## Analysis Steps
 

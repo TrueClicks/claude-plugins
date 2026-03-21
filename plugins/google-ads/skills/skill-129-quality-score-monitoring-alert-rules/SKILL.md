@@ -35,7 +35,7 @@ WHERE ad_group_criterion.status = 'ENABLED'
   AND ad_group_criterion.quality_info.quality_score IS NOT NULL
 ORDER BY ad_group_criterion.quality_info.quality_score ASC
 ```
-Use `/google-ads-get-custom` for historical QS tracking.
+Use `/google-ads:get-custom` for historical QS tracking.
 
 ## Analysis Steps
 

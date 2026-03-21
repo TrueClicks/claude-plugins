@@ -31,7 +31,7 @@ WHERE segments.date DURING LAST_30_DAYS
   AND campaign.status = 'ENABLED'
   AND campaign.advertising_channel_type = 'SEARCH'
 ```
-Run via `/google-ads-get-custom` with query name `search_partners_performance`.
+Run via `/google-ads:get-custom` with query name `search_partners_performance`.
 
 ## Analysis Steps
 

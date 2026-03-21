@@ -35,7 +35,7 @@ WHERE ad_group_ad.ad.type = 'RESPONSIVE_SEARCH_AD'
   AND segments.date DURING LAST_30_DAYS
 ORDER BY ad_group_ad.ad_strength ASC
 ```
-Use `/google-ads-get-custom` for performance correlation analysis.
+Use `/google-ads:get-custom` for performance correlation analysis.
 
 ## Analysis Steps
 

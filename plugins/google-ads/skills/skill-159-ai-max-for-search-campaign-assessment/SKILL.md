@@ -32,7 +32,7 @@ WHERE campaign.advertising_channel_type = 'SEARCH'
   AND campaign.status = 'ENABLED'
   AND segments.date DURING LAST_30_DAYS
 ```
-Use `/google-ads-get-custom` to get current AI Max configuration status (requires API access to campaign settings).
+Use `/google-ads:get-custom` to get current AI Max configuration status (requires API access to campaign settings).
 
 ## Analysis Steps
 

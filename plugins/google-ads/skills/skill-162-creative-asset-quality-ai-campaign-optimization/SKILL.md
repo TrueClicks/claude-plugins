@@ -25,7 +25,7 @@ SELECT
 FROM asset_group_asset
 WHERE asset_group_asset.status = 'ENABLED'
 ```
-Use `/google-ads-get-custom` for asset-level performance ratings and PMax asset group details.
+Use `/google-ads:get-custom` for asset-level performance ratings and PMax asset group details.
 
 ## Analysis Steps
 

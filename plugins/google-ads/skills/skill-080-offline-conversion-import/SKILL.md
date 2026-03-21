@@ -29,7 +29,7 @@ FROM conversion_action
 WHERE conversion_action.type IN ('UPLOAD_CLICKS', 'UPLOAD_CALLS', 'STORE_SALES', 'STORE_SALES_DIRECT_UPLOAD')
   AND conversion_action.status = 'ENABLED'
 ```
-Use `/google-ads-get-custom` to check offline conversion import status.
+Use `/google-ads:get-custom` to check offline conversion import status.
 
 ## Analysis Steps
 

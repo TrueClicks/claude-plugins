@@ -32,7 +32,7 @@ WHERE campaign.status = 'ENABLED'
   AND segments.date DURING LAST_14_DAYS
 ORDER BY segments.date DESC
 ```
-Run via `/google-ads-get-custom` with query name `budget_alerts`.
+Run via `/google-ads:get-custom` with query name `budget_alerts`.
 
 ## Analysis Steps
 

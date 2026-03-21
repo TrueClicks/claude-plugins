@@ -26,7 +26,7 @@ SELECT
 FROM campaign
 WHERE segments.date DURING LAST_30_DAYS
 ```
-Use `/google-ads-get-custom` for device-level conversion analysis.
+Use `/google-ads:get-custom` for device-level conversion analysis.
 
 ## Analysis Steps
 

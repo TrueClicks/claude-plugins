@@ -36,7 +36,7 @@ FROM keyword_view
 WHERE ad_group_criterion.status = 'ENABLED'
   AND segments.date DURING LAST_30_DAYS
 ```
-Use `/google-ads-get-custom` for conversion rate analysis or landing page URL extraction.
+Use `/google-ads:get-custom` for conversion rate analysis or landing page URL extraction.
 
 ## Analysis Steps
 

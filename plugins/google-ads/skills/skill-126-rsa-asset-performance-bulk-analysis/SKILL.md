@@ -34,7 +34,7 @@ WHERE ad_group_ad.ad.type = 'RESPONSIVE_SEARCH_AD'
   AND segments.date DURING LAST_30_DAYS
 ORDER BY metrics.impressions DESC
 ```
-Run via `/google-ads-get-custom` with query name `rsa_asset_performance`.
+Run via `/google-ads:get-custom` with query name `rsa_asset_performance`.
 
 ## Analysis Steps
 

@@ -30,7 +30,7 @@ FROM ad_group_audience_view
 WHERE campaign.advertising_channel_type = 'SEARCH'
   AND segments.date DURING LAST_30_DAYS
 ```
-Use `/google-ads-get-custom` for performance by audience segment.
+Use `/google-ads:get-custom` for performance by audience segment.
 
 ## Analysis Steps
 

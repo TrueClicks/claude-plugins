@@ -10,6 +10,6 @@ Validates the pending changes in `pending_changes.json` against the Google Ads A
 curl -s -X POST "https://api.claudeppc.ai/api/cli/google-ads/validate-changes" -F "config=@config.json" -F "pendingChanges=@pending_changes.json"
 ```
 
-4. After the API responds:
+3. After the API responds:
    - If validation succeeded: confirm the changes are ready for execution with `/google-ads:execute-changes`.
    - If validation failed: show the errors, explain what went wrong, and suggest fixes for the pending_changes.json.

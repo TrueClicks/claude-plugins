@@ -30,7 +30,7 @@ FROM campaign
 WHERE segments.date DURING LAST_30_DAYS
   AND campaign.status = 'ENABLED'
 ```
-Run via `/google-ads-get-custom` with query name `display_network_audit`.
+Run via `/google-ads:get-custom` with query name `display_network_audit`.
 
 ## Analysis Steps
 

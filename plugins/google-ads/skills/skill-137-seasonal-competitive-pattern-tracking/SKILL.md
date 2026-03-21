@@ -27,7 +27,7 @@ FROM campaign
 WHERE campaign.advertising_channel_type = 'SEARCH'
   AND segments.date BETWEEN '{start_date}' AND '{end_date}'
 ```
-Run via `/google-ads-get-custom`. Use 12+ month date range for meaningful seasonal patterns.
+Run via `/google-ads:get-custom`. Use 12+ month date range for meaningful seasonal patterns.
 
 ## Analysis Steps
 

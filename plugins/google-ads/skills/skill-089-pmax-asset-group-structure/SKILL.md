@@ -39,7 +39,7 @@ SELECT
 FROM asset_group_listing_group_filter
 WHERE campaign.advertising_channel_type = 'PERFORMANCE_MAX'
 ```
-Run via `/google-ads-get-custom` with query name `pmax_asset_groups`.
+Run via `/google-ads:get-custom` with query name `pmax_asset_groups`.
 
 ## Analysis Steps
 

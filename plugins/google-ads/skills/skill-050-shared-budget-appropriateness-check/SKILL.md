@@ -36,7 +36,7 @@ WHERE campaign.status = 'ENABLED'
   AND campaign_budget.explicitly_shared = TRUE
   AND segments.date DURING LAST_30_DAYS
 ```
-Use `/google-ads-get-custom` for shared budget reference counts.
+Use `/google-ads:get-custom` for shared budget reference counts.
 
 ## Analysis Steps
 

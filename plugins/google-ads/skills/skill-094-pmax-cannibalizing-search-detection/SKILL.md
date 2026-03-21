@@ -49,7 +49,7 @@ FROM campaign
 WHERE campaign.advertising_channel_type IN ('SEARCH', 'PERFORMANCE_MAX')
   AND segments.date DURING LAST_30_DAYS
 ```
-Run via `/google-ads-get-custom` with query name `pmax_cannibalization`.
+Run via `/google-ads:get-custom` with query name `pmax_cannibalization`.
 
 **Standard Data:**
 - `data/performance/campaigns/*/search_terms_metrics_30_days.md` - Search term reports

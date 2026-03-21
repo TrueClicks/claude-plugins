@@ -27,7 +27,7 @@ SELECT
 FROM customer
 LIMIT 1
 ```
-Run via `/google-ads-get-custom` with query name `enhanced_conversions_leads_status`.
+Run via `/google-ads:get-custom` with query name `enhanced_conversions_leads_status`.
 
 ## Analysis Steps
 

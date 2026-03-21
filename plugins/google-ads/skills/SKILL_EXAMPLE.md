@@ -46,7 +46,7 @@ SELECT
 FROM campaign_asset
 WHERE campaign.status = 'ENABLED'
 ```
-Use `/google-ads-get-custom` if you need extension performance metrics.
+Use `/google-ads:get-custom` if you need extension performance metrics.
 
 ## Analysis Steps
 

@@ -34,7 +34,7 @@ WHERE campaign.status = 'ENABLED'
   AND campaign.bidding_strategy_type = 'MANUAL_CPC'
   AND segments.date DURING LAST_30_DAYS
 ```
-Use `/google-ads-get-custom` if you need enhanced_cpc_enabled field.
+Use `/google-ads:get-custom` if you need enhanced_cpc_enabled field.
 
 ## Analysis Steps
 

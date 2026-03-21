@@ -27,7 +27,7 @@ SELECT
 FROM customer
 LIMIT 1
 ```
-Run via `/google-ads-get-custom` with query name `consent_mode_check`.
+Run via `/google-ads:get-custom` with query name `consent_mode_check`.
 
 Note: Full Consent Mode verification requires Tag Assistant or code inspection.
 

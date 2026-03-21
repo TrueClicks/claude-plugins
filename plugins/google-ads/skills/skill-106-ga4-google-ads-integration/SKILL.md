@@ -26,7 +26,7 @@ SELECT
 FROM conversion_action
 WHERE conversion_action.status = 'ENABLED'
 ```
-Use `/google-ads-get-custom` to verify conversion action sources.
+Use `/google-ads:get-custom` to verify conversion action sources.
 
 ## Analysis Steps
 

@@ -38,7 +38,7 @@ SELECT
 FROM asset
 WHERE asset.type = 'YOUTUBE_VIDEO'
 ```
-Run via `/google-ads-get-custom` with query name `pmax_video_assets`.
+Run via `/google-ads:get-custom` with query name `pmax_video_assets`.
 
 **Standard Data:**
 - `data/account/campaigns/*/campaign.md` - Campaign settings

@@ -40,7 +40,7 @@ FROM asset_group_asset
 WHERE campaign.advertising_channel_type = 'PERFORMANCE_MAX'
   AND asset_group_asset.field_type = 'YOUTUBE_VIDEO'
 ```
-Run via `/google-ads-get-custom` with query name `video_assets`.
+Run via `/google-ads:get-custom` with query name `video_assets`.
 
 ## Analysis Steps
 

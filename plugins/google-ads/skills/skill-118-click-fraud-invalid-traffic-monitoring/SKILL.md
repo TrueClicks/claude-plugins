@@ -40,7 +40,7 @@ SELECT
 FROM geographic_view
 WHERE segments.date DURING LAST_30_DAYS
 ```
-Run via `/google-ads-get-custom` with query name `fraud_detection`.
+Run via `/google-ads:get-custom` with query name `fraud_detection`.
 
 ## Analysis Steps
 

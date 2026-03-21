@@ -30,7 +30,7 @@ FROM conversion_action
 WHERE conversion_action.status = 'ENABLED'
 ORDER BY conversion_action.include_in_conversions_metric DESC
 ```
-Use `/google-ads-get-custom` for conversion volume per action.
+Use `/google-ads:get-custom` for conversion volume per action.
 
 ## Analysis Steps
 

@@ -37,7 +37,7 @@ FROM geographic_view
 WHERE segments.date DURING LAST_30_DAYS
   AND metrics.cost_micros > 0
 ```
-Run via `/google-ads-get-custom` with query name `location_exclusion_analysis`.
+Run via `/google-ads:get-custom` with query name `location_exclusion_analysis`.
 
 ## Analysis Steps
 

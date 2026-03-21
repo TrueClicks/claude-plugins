@@ -26,7 +26,7 @@ SELECT
 FROM user_list
 WHERE user_list.type IN ('RULE_BASED', 'LOGICAL')
 ```
-Use `/google-ads-get-custom` for audience inventory.
+Use `/google-ads:get-custom` for audience inventory.
 
 **Note:** Full GA4 audience audit requires GA4 property access.
 

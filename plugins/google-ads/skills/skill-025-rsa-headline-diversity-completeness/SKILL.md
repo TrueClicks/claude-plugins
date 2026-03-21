@@ -30,7 +30,7 @@ FROM ad_group_ad
 WHERE ad_group_ad.ad.type = 'RESPONSIVE_SEARCH_AD'
   AND ad_group_ad.status != 'REMOVED'
 ```
-Use `/google-ads-get-custom` if you need ad strength details or performance metrics.
+Use `/google-ads:get-custom` if you need ad strength details or performance metrics.
 
 ## Analysis Steps
 

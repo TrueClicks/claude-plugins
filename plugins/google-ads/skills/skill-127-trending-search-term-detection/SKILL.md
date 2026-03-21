@@ -32,7 +32,7 @@ WHERE segments.date DURING LAST_14_DAYS
   AND metrics.impressions > 0
 ORDER BY search_term_view.search_term, segments.date
 ```
-Run via `/google-ads-get-custom` with query name `search_term_trends`.
+Run via `/google-ads:get-custom` with query name `search_term_trends`.
 
 ## Analysis Steps
 

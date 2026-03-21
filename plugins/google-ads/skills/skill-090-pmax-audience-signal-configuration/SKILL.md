@@ -38,7 +38,7 @@ SELECT
 FROM user_list
 WHERE user_list.type IN ('CRM_BASED', 'RULE_BASED', 'LOGICAL')
 ```
-Run via `/google-ads-get-custom` with query name `pmax_audience_signals`.
+Run via `/google-ads:get-custom` with query name `pmax_audience_signals`.
 
 **Standard Data:**
 - `data/account/campaigns/*/audience_targeting.md` - Audience configurations (if available)

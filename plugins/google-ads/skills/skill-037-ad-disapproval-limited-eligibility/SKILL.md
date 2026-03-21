@@ -34,7 +34,7 @@ FROM ad_group_ad
 WHERE ad_group_ad.status != 'REMOVED'
   AND segments.date DURING LAST_30_DAYS
 ```
-Use `/google-ads-get-custom` for detailed policy topic entries.
+Use `/google-ads:get-custom` for detailed policy topic entries.
 
 ## Analysis Steps
 

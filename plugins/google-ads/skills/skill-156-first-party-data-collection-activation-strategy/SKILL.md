@@ -25,7 +25,7 @@ SELECT
 FROM user_list
 WHERE user_list.type = 'CRM_BASED'
 ```
-Run via `/google-ads-get-custom` to inventory Customer Match lists.
+Run via `/google-ads:get-custom` to inventory Customer Match lists.
 
 **Additional Data Sources:**
 - CRM system (Salesforce, HubSpot) - email counts, data quality

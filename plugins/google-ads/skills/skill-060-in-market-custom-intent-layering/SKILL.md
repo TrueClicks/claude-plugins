@@ -35,7 +35,7 @@ FROM ad_group_audience_view
 WHERE segments.date DURING LAST_30_DAYS
   AND metrics.impressions > 0
 ```
-Run via `/google-ads-get-custom` with query name `audience_performance`.
+Run via `/google-ads:get-custom` with query name `audience_performance`.
 
 ## Analysis Steps
 

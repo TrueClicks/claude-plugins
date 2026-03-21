@@ -30,7 +30,7 @@ FROM campaign
 WHERE campaign.status IN ('ENABLED', 'PAUSED')
   AND segments.date BETWEEN '[PRIOR_YEAR_START]' AND '[PRIOR_YEAR_END]'
 ```
-Run via `/google-ads-get-custom` for each seasonal period needing analysis (e.g., Black Friday 2025 to plan for 2026).
+Run via `/google-ads:get-custom` for each seasonal period needing analysis (e.g., Black Friday 2025 to plan for 2026).
 
 ## Analysis Steps
 

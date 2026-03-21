@@ -28,7 +28,7 @@ SELECT
 FROM ad_group_audience_view
 WHERE segments.date DURING LAST_30_DAYS
 ```
-Use `/google-ads-get-custom` if you need audience sizes or additional details.
+Use `/google-ads:get-custom` if you need audience sizes or additional details.
 
 ## Analysis Steps
 

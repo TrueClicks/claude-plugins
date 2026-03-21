@@ -67,7 +67,7 @@ FROM income_range_view
 WHERE segments.date DURING LAST_30_DAYS
   AND metrics.impressions > 0
 ```
-Run via `/google-ads-get-custom`.
+Run via `/google-ads:get-custom`.
 
 ## Analysis Steps
 

@@ -32,7 +32,7 @@ SELECT
 FROM conversion_action
 WHERE conversion_action.status = 'ENABLED'
 ```
-Use `/google-ads-get-custom` for detailed value settings.
+Use `/google-ads:get-custom` for detailed value settings.
 
 ## Analysis Steps
 

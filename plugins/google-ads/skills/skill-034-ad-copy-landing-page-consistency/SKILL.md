@@ -35,7 +35,7 @@ WHERE ad_group_ad.ad.type = 'RESPONSIVE_SEARCH_AD'
   AND segments.date DURING LAST_30_DAYS
 ORDER BY metrics.clicks DESC
 ```
-Use `/google-ads-get-custom` for high-traffic ad prioritization.
+Use `/google-ads:get-custom` for high-traffic ad prioritization.
 
 ## Analysis Steps
 

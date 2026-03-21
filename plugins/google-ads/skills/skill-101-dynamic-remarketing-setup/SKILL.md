@@ -27,7 +27,7 @@ FROM campaign
 WHERE campaign.advertising_channel_type IN ('DISPLAY', 'PERFORMANCE_MAX', 'SHOPPING')
   AND campaign.status = 'ENABLED'
 ```
-Use `/google-ads-get-custom` to verify Merchant Center linkage.
+Use `/google-ads:get-custom` to verify Merchant Center linkage.
 
 **Note:** Full dynamic remarketing audit requires website tag verification via Google Tag Assistant.
 

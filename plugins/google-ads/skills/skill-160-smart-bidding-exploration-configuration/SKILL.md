@@ -34,7 +34,7 @@ WHERE campaign.status = 'ENABLED'
   AND campaign.bidding_strategy_type IN ('TARGET_CPA', 'TARGET_ROAS', 'MAXIMIZE_CONVERSIONS', 'MAXIMIZE_CONVERSION_VALUE')
   AND segments.date DURING LAST_30_DAYS
 ```
-Use `/google-ads-get-custom` to get exploration configuration status.
+Use `/google-ads:get-custom` to get exploration configuration status.
 
 ## Analysis Steps
 

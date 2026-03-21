@@ -25,7 +25,7 @@ SELECT
 FROM user_list
 WHERE user_list.type = 'CRM_BASED'
 ```
-Run via `/google-ads-get-custom` with query name `customer_match_lists`.
+Run via `/google-ads:get-custom` with query name `customer_match_lists`.
 
 **Standard Data:**
 - `data/account/campaigns/*/audience_targeting.md` - Audience usage

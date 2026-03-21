@@ -35,7 +35,7 @@ WHERE ad_group_criterion.status = 'ENABLED'
   AND metrics.impressions > 0
   AND segments.date DURING LAST_30_DAYS
 ```
-Run via `/google-ads-get-custom` with query name `quality_score_current`.
+Run via `/google-ads:get-custom` with query name `quality_score_current`.
 
 Note: Historical QS tracking requires external snapshots (Google Ads scripts) since Google does not store QS history.
 

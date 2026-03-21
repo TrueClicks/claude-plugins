@@ -32,7 +32,7 @@ WHERE campaign.advertising_channel_type = 'SEARCH'
   AND campaign.status = 'ENABLED'
   AND segments.date DURING LAST_30_DAYS
 ```
-Run via `/google-ads-get-custom` with query name `serp_position_metrics`.
+Run via `/google-ads:get-custom` with query name `serp_position_metrics`.
 
 ## Analysis Steps
 

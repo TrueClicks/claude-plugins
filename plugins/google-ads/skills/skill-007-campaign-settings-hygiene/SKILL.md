@@ -30,7 +30,7 @@ SELECT
 FROM campaign
 WHERE campaign.status != 'REMOVED'
 ```
-Run via `/google-ads-get-custom` with query name `campaign_settings_audit`.
+Run via `/google-ads:get-custom` with query name `campaign_settings_audit`.
 
 ## Analysis Steps
 

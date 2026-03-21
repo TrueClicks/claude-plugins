@@ -33,7 +33,7 @@ SELECT
 FROM campaign_asset
 WHERE campaign.status != 'REMOVED'
 ```
-Use `/google-ads-get-custom` for account-level asset inventory or performance data.
+Use `/google-ads:get-custom` for account-level asset inventory or performance data.
 
 ## Analysis Steps
 

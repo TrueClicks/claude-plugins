@@ -34,7 +34,7 @@ WHERE ad_group_criterion.status = 'ENABLED'
   AND segments.date DURING LAST_30_DAYS
 ORDER BY metrics.cost_micros DESC
 ```
-Use `/google-ads-get-custom` for different date ranges or additional metrics.
+Use `/google-ads:get-custom` for different date ranges or additional metrics.
 
 ## Analysis Steps
 

@@ -28,7 +28,7 @@ FROM campaign
 WHERE campaign.status = 'ENABLED'
   AND segments.date BETWEEN '[EVENT_END_DATE]' AND '[POST_EVENT_END]'
 ```
-Run via `/google-ads-get-custom` with event period and post-event period queries for comparison.
+Run via `/google-ads:get-custom` with event period and post-event period queries for comparison.
 
 **Additional Requirements:**
 - Knowledge of recently completed events (within past 30 days)

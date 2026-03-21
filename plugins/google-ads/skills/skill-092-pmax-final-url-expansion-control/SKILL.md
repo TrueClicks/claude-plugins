@@ -43,7 +43,7 @@ WHERE campaign.advertising_channel_type = 'PERFORMANCE_MAX'
 ORDER BY metrics.clicks DESC
 LIMIT 100
 ```
-Run via `/google-ads-get-custom` with query name `pmax_url_expansion`.
+Run via `/google-ads:get-custom` with query name `pmax_url_expansion`.
 
 ## Analysis Steps
 

@@ -26,7 +26,7 @@ SELECT
 FROM user_list
 WHERE user_list.membership_status = 'OPEN'
 ```
-Use `/google-ads-get-custom` for conversion lag analysis:
+Use `/google-ads:get-custom` for conversion lag analysis:
 ```sql
 SELECT
   segments.conversion_lag_bucket,

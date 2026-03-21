@@ -34,7 +34,7 @@ SELECT
 FROM campaign
 WHERE segments.date DURING LAST_14_DAYS
 ```
-Use `/google-ads-get-custom` for detailed daily breakdown.
+Use `/google-ads:get-custom` for detailed daily breakdown.
 
 ## Analysis Steps
 

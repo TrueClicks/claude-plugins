@@ -47,7 +47,7 @@ FROM campaign_simulation
 WHERE campaign_simulation.type = 'TARGET_ROAS'
   AND campaign.status = 'ENABLED'
 ```
-Run via `/google-ads-get-custom` with query names `cpa_simulator` and `roas_simulator`.
+Run via `/google-ads:get-custom` with query names `cpa_simulator` and `roas_simulator`.
 
 ## Analysis Steps
 

@@ -28,7 +28,7 @@ FROM change_event
 WHERE change_event.change_date_time DURING LAST_14_DAYS
 LIMIT 1000
 ```
-Run via `/google-ads-get-custom` with query name `change_history`.
+Run via `/google-ads:get-custom` with query name `change_history`.
 
 ## Analysis Steps
 

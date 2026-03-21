@@ -31,7 +31,7 @@ WHERE segments.date BETWEEN '{start_date}' AND '{end_date}'
   AND campaign.status = 'ENABLED'
 ORDER BY campaign.name, segments.day_of_week
 ```
-Run via `/google-ads-get-custom` with query name `day_of_week_performance`.
+Run via `/google-ads:get-custom` with query name `day_of_week_performance`.
 
 ## Analysis Steps
 

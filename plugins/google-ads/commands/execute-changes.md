@@ -31,12 +31,12 @@ Ask the user:
 curl -s -X POST "https://api.claudeppc.ai/api/cli/google-ads/execute-changes" -F "config=@config.json" -F "pendingChanges=@pending_changes.json"
 ```
 
-5. If the API call succeeded, archive the results:
+4. If the API call succeeded, archive the results:
    - Create `change-history/` directory if it doesn't exist
    - Save `pending_changes.json` with added `status`, `executed_at`, and `execution_results` fields to `change-history/changes-{YYYYMMDD-HHmm}.json`
    - Delete `pending_changes.json`
 
-6. After the API responds:
+5. After the API responds:
    - If successful: summarize what was applied, note the change history file path, and recommend running `/google-ads:get` to refresh local data.
    - If partially failed: explain which operations succeeded and which failed, and suggest next steps.
    - If completely failed: show the errors and suggest fixes.

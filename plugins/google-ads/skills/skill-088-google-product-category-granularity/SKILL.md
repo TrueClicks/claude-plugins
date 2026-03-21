@@ -36,7 +36,7 @@ WHERE campaign.advertising_channel_type IN ('SHOPPING', 'PERFORMANCE_MAX')
 ORDER BY metrics.impressions DESC
 LIMIT 2000
 ```
-Run via `/google-ads-get-custom` with query name `product_category_analysis`.
+Run via `/google-ads:get-custom` with query name `product_category_analysis`.
 
 **Note:** Full feed analysis requires Merchant Center access.
 

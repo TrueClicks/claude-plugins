@@ -44,7 +44,7 @@ FROM campaign_asset
 WHERE asset.type = 'IMAGE'
   AND segments.date DURING LAST_30_DAYS
 ```
-Run via `/google-ads-get-custom` with query name `image_assets`.
+Run via `/google-ads:get-custom` with query name `image_assets`.
 
 ## Analysis Steps
 

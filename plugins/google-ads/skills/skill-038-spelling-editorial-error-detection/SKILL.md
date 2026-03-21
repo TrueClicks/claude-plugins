@@ -29,7 +29,7 @@ FROM ad_group_ad
 WHERE ad_group_ad.status != 'REMOVED'
   AND campaign.status = 'ENABLED'
 ```
-Use `/google-ads-get-custom` if you need policy details for already-flagged ads.
+Use `/google-ads:get-custom` if you need policy details for already-flagged ads.
 
 ## Analysis Steps
 

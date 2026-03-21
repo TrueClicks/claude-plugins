@@ -36,7 +36,7 @@ WHERE campaign.advertising_channel_type IN ('SHOPPING', 'PERFORMANCE_MAX')
 ORDER BY metrics.cost_micros DESC
 LIMIT 2000
 ```
-Run via `/google-ads-get-custom` with query name `custom_labels`.
+Run via `/google-ads:get-custom` with query name `custom_labels`.
 
 ## Analysis Steps
 

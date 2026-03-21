@@ -35,7 +35,7 @@ SELECT
   recommendation.campaign
 FROM recommendation
 ```
-Run via `/google-ads-get-custom` with query name `auto_apply_audit`.
+Run via `/google-ads:get-custom` with query name `auto_apply_audit`.
 
 ## Analysis Steps
 

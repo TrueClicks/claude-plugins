@@ -51,7 +51,7 @@ FROM campaign
 WHERE segments.date DURING LAST_30_DAYS
   AND metrics.impressions > 0
 ```
-Run via `/google-ads-get-custom` with query names `hourly_performance` and `daily_performance`.
+Run via `/google-ads:get-custom` with query names `hourly_performance` and `daily_performance`.
 
 ## Analysis Steps
 

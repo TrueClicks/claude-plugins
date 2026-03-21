@@ -33,7 +33,7 @@ FROM campaign_asset
 WHERE campaign_asset.field_type = 'SITELINK'
   AND segments.date DURING LAST_30_DAYS
 ```
-Use `/google-ads-get-custom` for sitelink performance metrics.
+Use `/google-ads:get-custom` for sitelink performance metrics.
 
 ## Analysis Steps
 

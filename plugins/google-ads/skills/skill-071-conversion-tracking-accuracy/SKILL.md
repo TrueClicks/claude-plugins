@@ -29,7 +29,7 @@ FROM campaign
 WHERE segments.date DURING LAST_30_DAYS
 ORDER BY segments.date DESC
 ```
-Use `/google-ads-get-custom` for date-level conversion data.
+Use `/google-ads:get-custom` for date-level conversion data.
 
 Note: Accuracy verification requires comparing to external business system data (CRM, OMS).
 

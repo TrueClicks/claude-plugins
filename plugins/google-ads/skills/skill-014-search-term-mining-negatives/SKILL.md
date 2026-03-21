@@ -34,7 +34,7 @@ FROM search_term_view
 WHERE segments.date DURING LAST_30_DAYS
   AND metrics.cost_micros > 0
 ```
-Use `/google-ads-get-custom` if you need different date ranges.
+Use `/google-ads:get-custom` if you need different date ranges.
 
 ## Analysis Steps
 

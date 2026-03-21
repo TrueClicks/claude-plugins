@@ -30,7 +30,7 @@ WHERE campaign.status = 'ENABLED'
   AND segments.date DURING LAST_30_DAYS
   AND metrics.impressions > 100
 ```
-Use `/google-ads-get-custom` to identify seasonal search patterns in Shopping campaigns.
+Use `/google-ads:get-custom` to identify seasonal search patterns in Shopping campaigns.
 
 **Note:** Actual feed changes must be made in Google Merchant Center, not Google Ads.
 

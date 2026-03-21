@@ -31,7 +31,7 @@ SELECT
 FROM conversion_action
 WHERE conversion_action.status = 'ENABLED'
 ```
-Use `/google-ads-get-custom` to get conversion volume per action.
+Use `/google-ads:get-custom` to get conversion volume per action.
 
 ## Analysis Steps
 

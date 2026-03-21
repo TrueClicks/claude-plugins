@@ -32,7 +32,7 @@ WHERE segments.date DURING LAST_30_DAYS
   AND ad_group_ad.status = 'ENABLED'
 ORDER BY metrics.clicks DESC
 ```
-Use `/google-ads-get-custom` for comprehensive URL extraction.
+Use `/google-ads:get-custom` for comprehensive URL extraction.
 
 Note: Actual HTTP status testing requires external tools or scripts.
 

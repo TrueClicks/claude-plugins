@@ -31,7 +31,7 @@ FROM campaign_criterion
 WHERE campaign.status = 'ENABLED'
   AND campaign_criterion.type IN ('DEVICE', 'LOCATION')
 ```
-Use `/google-ads-get-custom` for schedule or audience bid adjustments.
+Use `/google-ads:get-custom` for schedule or audience bid adjustments.
 
 ## Analysis Steps
 

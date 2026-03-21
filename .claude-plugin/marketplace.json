@@ -10,7 +10,7 @@
     {
       "name": "google-ads",
       "source": "./plugins/google-ads",
-      "description": "Google Ads account management for Google Ads",
+      "description": "Free Google Ads account management -- fetch data, analyze and audit accounts, validate and execute changes",
       "version": "1.0.0",
       "author": { "name": "TrueClicks" },
       "category": "advertising",

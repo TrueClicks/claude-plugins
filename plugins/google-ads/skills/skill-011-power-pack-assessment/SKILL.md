@@ -34,7 +34,7 @@ FROM campaign
 WHERE campaign.status = 'ENABLED'
   AND segments.date DURING LAST_30_DAYS
 ```
-Use `/google-ads-get-custom` if you need additional campaign type details or different date ranges.
+Use `/google-ads:get-custom` if you need additional campaign type details or different date ranges.
 
 ## Analysis Steps
 

@@ -33,7 +33,7 @@ SELECT
 FROM campaign
 WHERE campaign.status != 'REMOVED'
 ```
-Run via `/google-ads-get-custom` with query names `label_inventory` and `campaign_labels`.
+Run via `/google-ads:get-custom` with query names `label_inventory` and `campaign_labels`.
 
 ## Analysis Steps
 

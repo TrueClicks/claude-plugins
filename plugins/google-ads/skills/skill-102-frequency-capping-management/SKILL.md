@@ -26,7 +26,7 @@ WHERE campaign.advertising_channel_type IN ('DISPLAY', 'VIDEO')
   AND campaign.status = 'ENABLED'
   AND segments.date DURING LAST_30_DAYS
 ```
-Run via `/google-ads-get-custom` with query name `frequency_analysis`.
+Run via `/google-ads:get-custom` with query name `frequency_analysis`.
 
 **Standard Data:**
 - `data/account/campaigns/*/campaign.md` - Campaign settings

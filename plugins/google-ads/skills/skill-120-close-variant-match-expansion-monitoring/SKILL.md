@@ -32,7 +32,7 @@ WHERE segments.date DURING LAST_30_DAYS
 ORDER BY metrics.cost_micros DESC
 LIMIT 5000
 ```
-Use `/google-ads-get-custom` for expanded analysis.
+Use `/google-ads:get-custom` for expanded analysis.
 
 ## Analysis Steps
 

@@ -31,7 +31,7 @@ SELECT
 FROM campaign
 WHERE campaign.status = 'ENABLED'
 ```
-Use `/google-ads-get-custom` if you need to check specific automation configurations.
+Use `/google-ads:get-custom` if you need to check specific automation configurations.
 
 ## Analysis Steps
 

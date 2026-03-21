@@ -32,7 +32,7 @@ SELECT
 FROM conversion_action
 ORDER BY conversion_action.include_in_conversions_metric DESC
 ```
-Use `/google-ads-get-custom` for additional conversion action details.
+Use `/google-ads:get-custom` for additional conversion action details.
 
 ## Analysis Steps
 

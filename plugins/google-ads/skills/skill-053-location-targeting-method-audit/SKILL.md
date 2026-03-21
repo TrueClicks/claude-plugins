@@ -29,7 +29,7 @@ SELECT
 FROM campaign
 WHERE campaign.status != 'REMOVED'
 ```
-Use `/google-ads-get-custom` if geo target type settings are not in standard export.
+Use `/google-ads:get-custom` if geo target type settings are not in standard export.
 
 ## Analysis Steps
 

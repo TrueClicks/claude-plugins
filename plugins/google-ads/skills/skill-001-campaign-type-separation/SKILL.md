@@ -29,7 +29,7 @@ SELECT
 FROM campaign
 WHERE campaign.status != 'REMOVED'
 ```
-Use `/google-ads-get-custom` if you need additional fields or different filters.
+Use `/google-ads:get-custom` if you need additional fields or different filters.
 
 ## Analysis Steps
 

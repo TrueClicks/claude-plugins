@@ -29,7 +29,7 @@ WHERE segments.date DURING LAST_30_DAYS
 ORDER BY metrics.cost_micros DESC
 LIMIT 500
 ```
-Run via `/google-ads-get-custom` with query name `placement_performance`.
+Run via `/google-ads:get-custom` with query name `placement_performance`.
 
 **Standard Data:**
 - `data/account/campaigns/*/campaign.md` - Identify Display/Video/PMax campaigns

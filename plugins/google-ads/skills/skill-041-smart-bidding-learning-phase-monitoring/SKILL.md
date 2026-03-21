@@ -37,7 +37,7 @@ FROM campaign
 WHERE campaign.status = 'ENABLED'
   AND segments.date DURING LAST_14_DAYS
 ```
-Run via `/google-ads-get-custom` with query name `learning_phase_status`.
+Run via `/google-ads:get-custom` with query name `learning_phase_status`.
 
 ## Analysis Steps
 

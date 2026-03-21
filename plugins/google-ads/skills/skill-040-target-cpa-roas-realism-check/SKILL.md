@@ -34,7 +34,7 @@ FROM campaign
 WHERE segments.date BETWEEN '{start_date}' AND '{end_date}'
   AND campaign.status = 'ENABLED'
 ```
-Use `/google-ads-get-custom` for trend analysis over longer periods. Replace `{start_date}` and `{end_date}` with actual dates (e.g., 90-day window). Note: `LAST_90_DAYS` is not a valid GAQL date range; use `BETWEEN` with explicit dates instead.
+Use `/google-ads:get-custom` for trend analysis over longer periods. Replace `{start_date}` and `{end_date}` with actual dates (e.g., 90-day window). Note: `LAST_90_DAYS` is not a valid GAQL date range; use `BETWEEN` with explicit dates instead.
 
 ## Analysis Steps
 

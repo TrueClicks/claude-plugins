@@ -29,7 +29,7 @@ SELECT
 FROM shared_set
 WHERE shared_set.type = 'NEGATIVE_KEYWORDS'
 ```
-Use `/google-ads-get-custom` if you need detailed shared set membership.
+Use `/google-ads:get-custom` if you need detailed shared set membership.
 
 ## Analysis Steps
 

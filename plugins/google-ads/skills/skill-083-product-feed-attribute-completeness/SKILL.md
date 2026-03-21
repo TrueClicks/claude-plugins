@@ -33,7 +33,7 @@ WHERE campaign.advertising_channel_type IN ('SHOPPING', 'PERFORMANCE_MAX')
 ORDER BY metrics.impressions DESC
 LIMIT 2000
 ```
-Run via `/google-ads-get-custom` with query name `product_attributes`.
+Run via `/google-ads:get-custom` with query name `product_attributes`.
 
 Note: GTIN/MPN data requires Merchant Center API access.
 

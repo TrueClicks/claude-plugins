@@ -35,7 +35,7 @@ WHERE ad_group_criterion.status = 'ENABLED'
   AND campaign.status = 'ENABLED'
   AND segments.date DURING LAST_30_DAYS
 ```
-Use `/google-ads-get-custom` if you need additional metrics or different date ranges.
+Use `/google-ads:get-custom` if you need additional metrics or different date ranges.
 
 ## Analysis Steps
 

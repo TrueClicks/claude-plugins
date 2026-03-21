@@ -29,7 +29,7 @@ FROM landing_page_view
 WHERE segments.date DURING LAST_30_DAYS
 ORDER BY metrics.clicks DESC
 ```
-Run via `/google-ads-get-custom` with query name `landing_page_performance`.
+Run via `/google-ads:get-custom` with query name `landing_page_performance`.
 
 ## Analysis Steps
 

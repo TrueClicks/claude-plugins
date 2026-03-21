@@ -27,7 +27,7 @@ SELECT
 FROM conversion_action
 WHERE conversion_action.status = 'ENABLED'
 ```
-Use `/google-ads-get-custom` to check conversion action origins.
+Use `/google-ads:get-custom` to check conversion action origins.
 
 ## Analysis Steps
 

@@ -29,7 +29,7 @@ WHERE segments.date DURING LAST_30_DAYS
   AND metrics.impressions > 0
 ORDER BY campaign.name, segments.day_of_week, segments.hour
 ```
-Run via `/google-ads-get-custom` with query name `ad_schedule_analysis`.
+Run via `/google-ads:get-custom` with query name `ad_schedule_analysis`.
 
 ## Analysis Steps
 

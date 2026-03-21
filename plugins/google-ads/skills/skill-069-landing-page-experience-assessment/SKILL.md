@@ -33,7 +33,7 @@ WHERE ad_group_criterion.status = 'ENABLED'
   AND metrics.impressions > 50
   AND segments.date DURING LAST_30_DAYS
 ```
-Use `/google-ads-get-custom` if you need URL-level aggregation.
+Use `/google-ads:get-custom` if you need URL-level aggregation.
 
 ## Analysis Steps
 

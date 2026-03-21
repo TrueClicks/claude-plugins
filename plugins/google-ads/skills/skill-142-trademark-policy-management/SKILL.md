@@ -30,7 +30,7 @@ FROM ad_group_ad
 WHERE ad_group_ad.status = 'ENABLED'
   AND ad_group_ad.policy_summary.approval_status = 'DISAPPROVED'
 ```
-Run via `/google-ads-get-custom` with query name `trademark_violations`.
+Run via `/google-ads:get-custom` with query name `trademark_violations`.
 
 ## Analysis Steps
 

@@ -25,7 +25,7 @@ FROM conversion_action
 WHERE conversion_action.status = 'ENABLED'
   AND conversion_action.category IN ('PURCHASE', 'CONVERTED_LEAD')
 ```
-Run via `/google-ads-get-custom` to analyze conversion value patterns.
+Run via `/google-ads:get-custom` to analyze conversion value patterns.
 
 **Note:** Return tracking requires e-commerce system integration - full audit needs access to OMS/CRM.
 

@@ -30,7 +30,7 @@ FROM keyword_view
 WHERE ad_group_criterion.status = 'ENABLED'
   AND segments.date DURING LAST_30_DAYS
 ```
-Use `/google-ads-get-custom` if you need different date ranges or additional QS components.
+Use `/google-ads:get-custom` if you need different date ranges or additional QS components.
 
 ## Analysis Steps
 

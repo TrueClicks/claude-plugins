@@ -39,7 +39,7 @@ FROM campaign
 WHERE campaign.status = 'ENABLED'
   AND segments.date DURING LAST_30_DAYS
 ```
-Run via `/google-ads-get-custom` with query name `budget_limited_campaigns`.
+Run via `/google-ads:get-custom` with query name `budget_limited_campaigns`.
 
 ## Analysis Steps
 

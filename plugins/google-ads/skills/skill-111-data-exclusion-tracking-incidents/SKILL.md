@@ -26,7 +26,7 @@ WHERE segments.date DURING LAST_30_DAYS
   )
 ORDER BY segments.date
 ```
-Run via `/google-ads-get-custom` with query name `tracking_incident_detection`.
+Run via `/google-ads:get-custom` with query name `tracking_incident_detection`.
 
 **Standard Data:**
 - `data/performance/campaigns/*/campaign_metrics_30_days.md` - Historical trends

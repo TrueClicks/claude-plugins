@@ -35,7 +35,7 @@ SELECT
 FROM search_term_view
 WHERE segments.date DURING LAST_30_DAYS
 ```
-Use `/google-ads-get-custom` for different date ranges or to filter by specific campaigns.
+Use `/google-ads:get-custom` for different date ranges or to filter by specific campaigns.
 
 ## Analysis Steps
 

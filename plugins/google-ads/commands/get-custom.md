@@ -24,12 +24,12 @@ curl -s -o response.zip -X POST "https://api.claudeppc.ai/api/cli/google-ads/get
 - `name`: Short identifier for the query (e.g., `campaign_7d`, `keyword_device`). Used as the output filename.
 - `query`: Valid GAQL query string (e.g., `SELECT campaign.name, metrics.clicks FROM campaign`)
 
-4. Extract and clean up:
+3. Extract and clean up:
 ```
 mkdir -p data/custom && unzip -o response.zip -d data/custom && rm response.zip
 ```
 
-5. Read the results file `data/custom/<query_name>.md` and present the data to the user.
+4. Read the results file `data/custom/<query_name>.md` and present the data to the user.
 
 ## Example
 

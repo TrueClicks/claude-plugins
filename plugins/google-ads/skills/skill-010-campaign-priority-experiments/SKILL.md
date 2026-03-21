@@ -39,7 +39,7 @@ SELECT
   experiment.end_date
 FROM experiment
 ```
-Run via `/google-ads-get-custom` with query names `shopping_priorities` and `experiments`.
+Run via `/google-ads:get-custom` with query names `shopping_priorities` and `experiments`.
 
 ## Analysis Steps
 

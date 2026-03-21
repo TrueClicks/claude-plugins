@@ -39,7 +39,7 @@ SELECT
 FROM conversion_action
 WHERE conversion_action.status = 'ENABLED'
 ```
-Run via `/google-ads-get-custom` with query names `account_settings` and `conversion_actions`.
+Run via `/google-ads:get-custom` with query names `account_settings` and `conversion_actions`.
 
 **Note:** Auto-applied recommendations settings require Google Ads UI review or Recommendations API (not available via standard GAQL).
 

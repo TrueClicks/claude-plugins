@@ -31,7 +31,7 @@ WHERE ad_group_ad.ad.type = 'RESPONSIVE_SEARCH_AD'
   AND ad_group_ad.status != 'REMOVED'
   AND segments.date DURING LAST_30_DAYS
 ```
-Use `/google-ads-get-custom` for performance metrics by ad.
+Use `/google-ads:get-custom` for performance metrics by ad.
 
 ## Analysis Steps
 

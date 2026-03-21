@@ -32,7 +32,7 @@ FROM campaign
 WHERE segments.date DURING LAST_30_DAYS
   AND campaign.status = 'ENABLED'
 ```
-Use `/google-ads-get-custom` for period comparisons or daily granularity.
+Use `/google-ads:get-custom` for period comparisons or daily granularity.
 
 ## Analysis Steps
 

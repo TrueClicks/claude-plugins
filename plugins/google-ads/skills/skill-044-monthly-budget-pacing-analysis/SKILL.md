@@ -32,7 +32,7 @@ WHERE campaign.status = 'ENABLED'
   AND segments.date DURING THIS_MONTH
 ORDER BY segments.date
 ```
-Run via `/google-ads-get-custom` with query name `monthly_pacing`.
+Run via `/google-ads:get-custom` with query name `monthly_pacing`.
 
 ## Analysis Steps
 

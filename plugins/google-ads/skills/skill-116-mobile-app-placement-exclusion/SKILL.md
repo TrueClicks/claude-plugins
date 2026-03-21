@@ -31,7 +31,7 @@ WHERE segments.date DURING LAST_30_DAYS
 ORDER BY metrics.cost_micros DESC
 LIMIT 500
 ```
-Run via `/google-ads-get-custom` with query name `mobile_app_placements`.
+Run via `/google-ads:get-custom` with query name `mobile_app_placements`.
 
 **Standard Data:**
 - `data/account/campaigns/*/campaign.md` - Identify Display/Video campaigns

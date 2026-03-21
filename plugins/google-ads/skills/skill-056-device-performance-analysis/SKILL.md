@@ -34,7 +34,7 @@ FROM campaign
 WHERE segments.date DURING LAST_30_DAYS
   AND metrics.impressions > 0
 ```
-Run via `/google-ads-get-custom` with query name `device_performance`. Device values: DESKTOP, MOBILE, TABLET, CONNECTED_TV.
+Run via `/google-ads:get-custom` with query name `device_performance`. Device values: DESKTOP, MOBILE, TABLET, CONNECTED_TV.
 
 ## Analysis Steps
 

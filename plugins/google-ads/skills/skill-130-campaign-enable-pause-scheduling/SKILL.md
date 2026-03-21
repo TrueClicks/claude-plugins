@@ -28,7 +28,7 @@ SELECT
 FROM campaign
 WHERE campaign.status IN ('ENABLED', 'PAUSED')
 ```
-Use `/google-ads-get-custom` for label-based filtering.
+Use `/google-ads:get-custom` for label-based filtering.
 
 ## Analysis Steps
 

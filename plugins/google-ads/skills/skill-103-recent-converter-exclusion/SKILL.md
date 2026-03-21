@@ -26,7 +26,7 @@ FROM ad_group_audience_view
 WHERE ad_group_criterion.negative = true
   AND segments.date DURING LAST_30_DAYS
 ```
-Use `/google-ads-get-custom` for complete exclusion inventory.
+Use `/google-ads:get-custom` for complete exclusion inventory.
 
 ## Analysis Steps
 

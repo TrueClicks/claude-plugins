@@ -46,7 +46,7 @@ WHERE segments.date DURING LAST_30_DAYS
   AND campaign.advertising_channel_type = 'VIDEO'
 ```
 Note: CTR and view rate not directly available on `detail_placement_view` — calculate client-side from clicks/impressions.
-Run via `/google-ads-get-custom` with query name `placement_review`.
+Run via `/google-ads:get-custom` with query name `placement_review`.
 
 ## Analysis Steps
 

@@ -30,7 +30,7 @@ SELECT
 FROM ad_group_audience_view
 WHERE campaign.status != 'REMOVED'
 ```
-Use `/google-ads-get-custom` if audience details are not in standard export.
+Use `/google-ads:get-custom` if audience details are not in standard export.
 
 ## Analysis Steps
 

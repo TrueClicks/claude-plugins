@@ -30,7 +30,7 @@ FROM search_term_view
 WHERE segments.date DURING LAST_30_DAYS
   AND metrics.impressions > 0
 ```
-Use `/google-ads-get-custom` if you need different date ranges or additional metrics.
+Use `/google-ads:get-custom` if you need different date ranges or additional metrics.
 
 ## Analysis Steps
 

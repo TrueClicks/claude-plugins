@@ -33,7 +33,7 @@ FROM campaign
 WHERE campaign.status = 'ENABLED'
   AND segments.date DURING LAST_30_DAYS
 ```
-Use `/google-ads-get-custom` if you need target CPA values not in standard export.
+Use `/google-ads:get-custom` if you need target CPA values not in standard export.
 
 ## Analysis Steps
 

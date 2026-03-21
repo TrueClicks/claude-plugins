@@ -33,7 +33,7 @@ FROM user_list
 WHERE user_list.type = 'CRM_BASED'
   AND user_list.membership_status = 'OPEN'
 ```
-Run via `/google-ads-get-custom` with query name `pmax_nca_settings`.
+Run via `/google-ads:get-custom` with query name `pmax_nca_settings`.
 
 ## Analysis Steps
 

@@ -33,7 +33,7 @@ WHERE ad_group_criterion.status = 'ENABLED'
   AND metrics.impressions > 50
   AND segments.date DURING LAST_30_DAYS
 ```
-Use `/google-ads-get-custom` if you need additional fields.
+Use `/google-ads:get-custom` if you need additional fields.
 
 ## Analysis Steps
 

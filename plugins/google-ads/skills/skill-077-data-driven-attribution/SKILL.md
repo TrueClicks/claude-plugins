@@ -28,7 +28,7 @@ SELECT
 FROM conversion_action
 WHERE conversion_action.status = 'ENABLED'
 ```
-Use `/google-ads-get-custom` for DDA eligibility status.
+Use `/google-ads:get-custom` for DDA eligibility status.
 
 ## Analysis Steps
 

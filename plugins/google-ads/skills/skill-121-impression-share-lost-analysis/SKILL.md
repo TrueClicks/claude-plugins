@@ -36,7 +36,7 @@ WHERE campaign.status = 'ENABLED'
   AND campaign.advertising_channel_type = 'SEARCH'
   AND segments.date DURING LAST_30_DAYS
 ```
-Run via `/google-ads-get-custom` with query name `impression_share_loss`.
+Run via `/google-ads:get-custom` with query name `impression_share_loss`.
 
 ## Analysis Steps
 

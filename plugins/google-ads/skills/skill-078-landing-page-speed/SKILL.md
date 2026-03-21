@@ -30,7 +30,7 @@ WHERE segments.date DURING LAST_30_DAYS
   AND ad_group_ad.status = 'ENABLED'
 ORDER BY metrics.impressions DESC
 ```
-Use `/google-ads-get-custom` to get URL-level traffic data.
+Use `/google-ads:get-custom` to get URL-level traffic data.
 
 Note: Actual page speed testing requires external tools (PageSpeed Insights, GTmetrix).
 

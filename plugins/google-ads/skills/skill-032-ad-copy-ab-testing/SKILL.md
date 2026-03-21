@@ -37,7 +37,7 @@ WHERE ad_group_ad.ad.type = 'RESPONSIVE_SEARCH_AD'
   AND segments.date DURING LAST_30_DAYS
 ORDER BY campaign.name, ad_group.name
 ```
-Use `/google-ads-get-custom` for detailed ad-level performance.
+Use `/google-ads:get-custom` for detailed ad-level performance.
 
 ## Analysis Steps
 

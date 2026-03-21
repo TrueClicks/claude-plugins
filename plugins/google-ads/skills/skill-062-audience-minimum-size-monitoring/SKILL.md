@@ -32,7 +32,7 @@ SELECT
 FROM user_list
 WHERE user_list.membership_status = 'OPEN'
 ```
-Run via `/google-ads-get-custom` with query name `audience_sizes`.
+Run via `/google-ads:get-custom` with query name `audience_sizes`.
 
 ## Analysis Steps
 

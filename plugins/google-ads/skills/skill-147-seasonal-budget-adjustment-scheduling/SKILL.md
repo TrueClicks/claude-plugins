@@ -32,7 +32,7 @@ FROM campaign
 WHERE campaign.status = 'ENABLED'
   AND segments.date BETWEEN '[PRIOR_YEAR_PEAK_START]' AND '[PRIOR_YEAR_PEAK_END]'
 ```
-Run via `/google-ads-get-custom` to analyze prior-year peak periods.
+Run via `/google-ads:get-custom` to analyze prior-year peak periods.
 
 ## Analysis Steps
 
