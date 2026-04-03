@@ -55,6 +55,7 @@ After the download completes successfully:
 1. Read `data/account/account_summary.md` to load account context.
 2. Give the user a brief summary of what was downloaded (account name, number of campaigns).
 3. Mention whether paused entities were included or not.
+4. Check if `data/performance/` folder exists. If it does not, ask the user if they also want to download 30-day performance data — it enables performance-based analysis and auditing.
 
 **For performance datasets (`30d`, `7d`, `monthly`):**
 1. List the periods covered (shown in the file headers as `- Periods: ...`).
