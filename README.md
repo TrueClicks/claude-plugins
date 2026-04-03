@@ -6,7 +6,7 @@ Claude Code plugins for PPC account management by [TrueClicks](https://www.truec
 
 | Plugin | Description | Version |
 |--------|-------------|---------|
-| [google-ads](./plugins/google-ads) | Google Ads account management by TrueClicks | 1.5.0 |
+| [google-ads](./plugins/google-ads) | Google Ads account management by TrueClicks | 1.6.0 |
 
 ## Installation
 

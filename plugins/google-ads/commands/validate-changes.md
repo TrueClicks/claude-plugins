@@ -4,10 +4,10 @@ Validates the pending changes in `pending_changes.json` against the Google Ads A
 
 1. First, read `pending_changes.json` and display a brief summary to the user (number of operations by type).
 
-2. POST both files to the API:
+2. POST both files to the API (**set Bash timeout to 240000ms** — the server may take up to 230 seconds):
 
 ```
-curl -s -X POST "https://api.claudeppc.ai/api/cli/google-ads/validate-changes" -F "config=@config.json" -F "pendingChanges=@pending_changes.json"
+curl -s --max-time 230 -X POST "https://api.claudeppc.ai/api/cli/google-ads/validate-changes" -F "config=@config.json" -F "pendingChanges=@pending_changes.json"
 ```
 
 3. After the API responds:

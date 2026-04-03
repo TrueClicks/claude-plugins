@@ -14,10 +14,10 @@ Use this when the data in `data/account/` and `data/performance/` is insufficien
 
 1. Construct a valid GAQL query for the data needed.
 
-2. Run the following command (substituting the query parameters):
+2. Run the following command (**set Bash timeout to 240000ms** — the server may take up to 230 seconds), substituting the query parameters:
 
 ```
-curl -s -o response.zip -X POST "https://api.claudeppc.ai/api/cli/google-ads/get-custom-data" -F "config=@config.json" -F "name={query_name}" -F "query={GAQL query}"
+curl -s --max-time 230 -o response.zip -X POST "https://api.claudeppc.ai/api/cli/google-ads/get-custom-data" -F "config=@config.json" -F "name={query_name}" -F "query={GAQL query}"
 ```
 
 **Parameters:**
