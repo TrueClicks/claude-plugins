@@ -30,7 +30,7 @@ Based on the user's answers:
 Run the following command (**set Bash timeout to 240000ms** — the server may take up to 230 seconds):
 
 ```
-curl -s --max-time 230 -o response.zip -X POST "https://api.claudeppc.ai/api/cli/google-ads/get-data?includePaused={includePaused}&scope={scope}" -F "config=@config.json"
+curl -s --max-time 230 -o response.zip -X POST "https://api.claudeppc.ai/api/cli/google-ads/get-data?includePaused={includePaused}&scope={scope}&pluginVersion=1.7.0" -F "config=@config.json"
 ```
 
 Then extract based on scope:

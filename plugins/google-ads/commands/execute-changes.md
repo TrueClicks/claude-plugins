@@ -28,7 +28,7 @@ Ask the user:
 3. If user confirms, POST both files to the API (**set Bash timeout to 240000ms** — the server may take up to 230 seconds):
 
 ```
-curl -s --max-time 230 -X POST "https://api.claudeppc.ai/api/cli/google-ads/execute-changes" -F "config=@config.json" -F "pendingChanges=@pending_changes.json"
+curl -s --max-time 230 -X POST "https://api.claudeppc.ai/api/cli/google-ads/execute-changes?pluginVersion=1.7.0" -F "config=@config.json" -F "pendingChanges=@pending_changes.json"
 ```
 
 4. If the API call succeeded, archive the results:
