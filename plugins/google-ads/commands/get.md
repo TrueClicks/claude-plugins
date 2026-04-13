@@ -12,7 +12,8 @@ Check if `config.json` exists in the project root.
 Use the AskUserQuestion tool to ask two questions:
 
 **Question 1:** "What data do you want to download?"
-- **Structure (Recommended)** - Account settings, campaigns, ad groups, ads, keywords, targeting, extensions
+- **Structure + Performance 30d (Recommended)** - Full account structure plus last 30 days → previous 30 days performance comparison
+- **Structure only** - Account settings, campaigns, ad groups, ads, keywords, targeting, extensions
 - **Performance 30d** - Last 30 days → previous 30 days comparison
 - **Performance 7d** - Last 7 days → previous 7 days comparison
 - **Performance monthly** - This month → last month → 2 months ago comparison
@@ -24,25 +25,29 @@ Use the AskUserQuestion tool to ask two questions:
 ## Step 3: Run the data fetch
 
 Based on the user's answers:
-- Set `scope` to one of: `structure`, `30d`, `7d`, `monthly`
+- Set `scope` to one of: `structure+30d`, `structure`, `30d`, `7d`, `monthly`
 - Set `includePaused` to `false` (active only) or `true` (include paused)
 
-Run the following command (**set Bash timeout to 240000ms** — the server may take up to 230 seconds):
+**For `structure+30d`** — run **two sequential fetches**: first `structure`, then `30d`. Follow the fetch and extract steps below for each scope in order. Check for plugin update headers on both responses but only display the notice once.
+
+For each fetch, run the following command (**set Bash timeout to 240000ms** — the server may take up to 230 seconds):
 
 ```
-curl -s --max-time 230 -o response.zip -X POST "https://api.claudeppc.ai/api/cli/google-ads/get-data?includePaused={includePaused}&scope={scope}&pluginVersion=1.7.0" -F "config=@config.json"
+mkdir -p tmp && curl -s --max-time 230 -o tmp/response.zip -D tmp/response_headers.txt -X POST "https://api.claudeppc.ai/api/cli/google-ads/get-data?includePaused={includePaused}&scope={scope}&pluginVersion=1.8.0" -F "config=@config.json"
 ```
+
+Check `tmp/response_headers.txt` for a line starting with `X-Plugin-Update:`. If found, display its value to the user as a notice. Then delete the headers file: `rm -f tmp/response_headers.txt`.
 
 Then extract based on scope:
 
 **For `structure`** — wipe existing structure data and extract:
 ```
-rm -rf data/account docs CLAUDE.md && unzip -o response.zip && rm response.zip
+rm -rf data/account docs CLAUDE.md && unzip -o tmp/response.zip && rm tmp/response.zip
 ```
 
 **For `30d`, `7d`, or `monthly`** — wipe only that performance dataset and extract:
 ```
-rm -rf data/performance/{scope} && unzip -o response.zip && rm response.zip
+rm -rf data/performance/{scope} && unzip -o tmp/response.zip && rm tmp/response.zip
 ```
 
 If the command fails, show the error message to the user and suggest checking `config.json`.
@@ -50,6 +55,11 @@ If the command fails, show the error message to the user and suggest checking `c
 ## Step 4: Summarize results
 
 After the download completes successfully:
+
+**For `structure+30d`:**
+1. Read `data/account/account_summary.md` to load account context.
+2. Give the user a brief summary of what was downloaded (account name, number of campaigns, plus 30-day performance data).
+3. Mention whether paused entities were included or not.
 
 **For `structure`:**
 1. Read `data/account/account_summary.md` to load account context.

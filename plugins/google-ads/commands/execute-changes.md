@@ -28,8 +28,10 @@ Ask the user:
 3. If user confirms, POST both files to the API (**set Bash timeout to 240000ms** — the server may take up to 230 seconds):
 
 ```
-curl -s --max-time 230 -X POST "https://api.claudeppc.ai/api/cli/google-ads/execute-changes?pluginVersion=1.7.0" -F "config=@config.json" -F "pendingChanges=@pending_changes.json"
+mkdir -p tmp && curl -s --max-time 230 -D tmp/response_headers.txt -X POST "https://api.claudeppc.ai/api/cli/google-ads/execute-changes?pluginVersion=1.8.0" -F "config=@config.json" -F "pendingChanges=@pending_changes.json"
 ```
+
+Check `tmp/response_headers.txt` for a line starting with `X-Plugin-Update:`. If found, display its value to the user as a notice. Then delete the headers file: `rm -f tmp/response_headers.txt`.
 
 4. If the API call succeeded, archive the results:
    - Create `change-history/` directory if it doesn't exist

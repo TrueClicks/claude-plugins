@@ -17,8 +17,10 @@ Use this when the data in `data/account/` and `data/performance/` is insufficien
 2. Run the following command (**set Bash timeout to 240000ms** — the server may take up to 230 seconds), substituting the query parameters:
 
 ```
-curl -s --max-time 230 -o response.zip -X POST "https://api.claudeppc.ai/api/cli/google-ads/get-custom-data?pluginVersion=1.7.0" -F "config=@config.json" -F "name={query_name}" -F "query={GAQL query}"
+mkdir -p tmp && curl -s --max-time 230 -o tmp/response.zip -D tmp/response_headers.txt -X POST "https://api.claudeppc.ai/api/cli/google-ads/get-custom-data?pluginVersion=1.8.0" -F "config=@config.json" -F "name={query_name}" -F "query={GAQL query}"
 ```
+
+Check `tmp/response_headers.txt` for a line starting with `X-Plugin-Update:`. If found, display its value to the user as a notice. Then delete the headers file: `rm -f tmp/response_headers.txt`.
 
 **Parameters:**
 - `name`: Short identifier for the query (e.g., `campaign_7d`, `keyword_device`). Used as the output filename.
@@ -26,7 +28,7 @@ curl -s --max-time 230 -o response.zip -X POST "https://api.claudeppc.ai/api/cli
 
 3. Extract and clean up:
 ```
-mkdir -p data/custom && unzip -o response.zip -d data/custom && rm response.zip
+mkdir -p data/custom && unzip -o tmp/response.zip -d data/custom && rm tmp/response.zip
 ```
 
 4. Read the results file `data/custom/<query_name>.md` and present the data to the user.
