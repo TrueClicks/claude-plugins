@@ -11,7 +11,7 @@
       "name": "google-ads",
       "source": "./plugins/google-ads",
       "description": "Free Google Ads account management -- fetch data, analyze and audit accounts, validate and execute changes",
-      "version": "1.0.0",
+      "version": "1.8.0",
       "author": { "name": "TrueClicks" },
       "category": "advertising",
       "tags": ["google-ads", "ppc", "sem", "gaql"]

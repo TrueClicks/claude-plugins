@@ -24,7 +24,6 @@ Open Claude Code in that folder and run `/google-ads:get` to download your accou
 
 | Command | Description |
 |---------|-------------|
-| `/google-ads:start` | Welcome screen with setup instructions |
 | `/google-ads:get` | Download account structure and performance data |
 | `/google-ads:get-custom` | Run a custom GAQL query against the account |
 | `/google-ads:validate-changes` | Validate pending changes before applying them |

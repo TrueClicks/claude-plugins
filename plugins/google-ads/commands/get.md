@@ -4,7 +4,7 @@
 
 Check if `config.json` exists in the project root.
 
-- If it **does not exist** or **contains placeholder values** (`YOUR-TOKEN-HERE`, `1234567890`): tell the user to run `/google-ads:start` first to set up their credentials. **Stop here.**
+- If it **does not exist** or **contains placeholder values** (`YOUR-TOKEN-HERE`, `1234567890`): tell the user to visit [claudeppc.ai](https://claudeppc.ai) to download their `config.json` and place it in the project root. **Stop here.**
 - If it **exists with real values**: continue to Step 2.
 
 ## Step 2: Ask what to download
