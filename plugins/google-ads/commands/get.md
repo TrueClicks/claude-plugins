@@ -33,7 +33,7 @@ Based on the user's answers:
 For each fetch, run the following command (**set Bash timeout to 240000ms** — the server may take up to 230 seconds):
 
 ```
-mkdir -p tmp && curl -s --max-time 230 -o tmp/response.zip -D tmp/response_headers.txt -X POST "https://api.claudeppc.ai/api/cli/google-ads/get-data?includePaused={includePaused}&scope={scope}&pluginVersion=1.8.0" -F "config=@config.json"
+mkdir -p tmp && curl -s --max-time 230 -o tmp/response.zip -D tmp/response_headers.txt -X POST "https://api.claudeppc.ai/api/cli/google-ads/get-data?includePaused={includePaused}&scope={scope}&pluginVersion=2.0.0" -F "config=@config.json"
 ```
 
 Check `tmp/response_headers.txt` for a line starting with `X-Plugin-Update:`. If found, display its value to the user as a notice. Then delete the headers file: `rm -f tmp/response_headers.txt`.

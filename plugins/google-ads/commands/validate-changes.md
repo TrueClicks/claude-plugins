@@ -7,7 +7,7 @@ Validates the pending changes in `pending_changes.json` against the Google Ads A
 2. POST both files to the API (**set Bash timeout to 240000ms** — the server may take up to 230 seconds):
 
 ```
-mkdir -p tmp && curl -s --max-time 230 -D tmp/response_headers.txt -X POST "https://api.claudeppc.ai/api/cli/google-ads/validate-changes?pluginVersion=1.8.0" -F "config=@config.json" -F "pendingChanges=@pending_changes.json"
+mkdir -p tmp && curl -s --max-time 230 -D tmp/response_headers.txt -X POST "https://api.claudeppc.ai/api/cli/google-ads/validate-changes?pluginVersion=2.0.0" -F "config=@config.json" -F "pendingChanges=@pending_changes.json"
 ```
 
 Check `tmp/response_headers.txt` for a line starting with `X-Plugin-Update:`. If found, display its value to the user as a notice. Then delete the headers file: `rm -f tmp/response_headers.txt`.
