@@ -1,0 +1,9 @@
+{
+  "name": "meta-ads",
+  "version": "1.0.0",
+  "description": "Free Meta Ads account management -- fetch data, analyze and audit accounts, validate and execute changes",
+  "author": { "name": "TrueClicks" },
+  "homepage": "https://github.com/TrueClicks/claude-plugins/tree/main/plugins/meta-ads",
+  "license": "MIT",
+  "keywords": ["meta-ads", "facebook-ads", "instagram-ads", "ppc", "paid-social", "advertising"]
+}

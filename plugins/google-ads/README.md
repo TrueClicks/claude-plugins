@@ -1,6 +1,6 @@
-# Google Ads Plugin for Claude Code
+# Google Ads Plugin for Claude
 
-Free Google Ads account management plugin by [TrueClicks](https://www.trueclicks.com). Fetch account data, analyze and audit accounts, validate and execute changes - all from Claude Code.
+Free Google Ads account management plugin by [TrueClicks](https://www.trueclicks.com). Fetch account data, analyze and audit accounts, validate and execute changes - all from Claude. Works in Claude Cowork, the Code tab of the Claude desktop app, and Claude Code in the terminal.
 
 For full documentation, visit [claudeppc.ai](https://claudeppc.ai).
 
@@ -14,11 +14,11 @@ Each config file is tied to a single Google Ads account. Managing multiple accou
 
 ### 2. Place config.json in a folder
 
-Create a folder for the Google Ads account on your disk and move the downloaded `config.json` into it. This folder will be your working directory for Claude Code.
+Create a folder for the Google Ads account on your disk and move the downloaded `config.json` into it. This folder will be your working directory for Claude.
 
 ### 3. Start managing your account
 
-Open Claude Code in that folder and run `/google-ads:get` to download your account data and start asking questions.
+Open Claude in that folder (the Cowork or Code tab, or Claude Code in a terminal) and run `/google-ads:get` to download your account data and start asking questions.
 
 ## Commands
 

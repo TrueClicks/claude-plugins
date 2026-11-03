@@ -2,7 +2,7 @@
   "name": "trueclicks-plugins",
   "owner": { "name": "TrueClicks" },
   "metadata": {
-    "description": "TrueClicks Claude Code plugins for PPC",
+    "description": "TrueClicks Claude plugins for PPC",
     "version": "1.0.0",
     "pluginRoot": "./plugins"
   },
@@ -15,6 +15,15 @@
       "author": { "name": "TrueClicks" },
       "category": "advertising",
       "tags": ["google-ads", "ppc", "sem", "gaql"]
+    },
+    {
+      "name": "meta-ads",
+      "source": "./plugins/meta-ads",
+      "description": "Free Meta Ads account management -- fetch data, analyze and audit accounts, validate and execute changes",
+      "version": "1.0.0",
+      "author": { "name": "TrueClicks" },
+      "category": "advertising",
+      "tags": ["meta-ads", "facebook-ads", "instagram-ads", "ppc", "paid-social"]
     }
   ]
 }
